@@ -34,7 +34,7 @@
     <camelContext id="helloContext" xmlns="http://camel.apache.org/schema/blueprint" autoStartup="true">
     </camelContext>
 
-    <bean id="apacheKarafCookbook" class="com.savoir.apache.karaf.essentials.msf.HelloFactory"
+    <bean id="apacheKarafEssentials" class="com.savoir.apache.karaf.essentials.msf.HelloFactory"
           init-method="init" destroy-method="destroy">
         <property name="bundleContext" ref="blueprintBundleContext"/>
         <property name="configurationPid" value="${com.savoir.apache.karaf.essentials.msf.hellofactory.pid}"/>
