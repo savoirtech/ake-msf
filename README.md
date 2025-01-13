@@ -27,11 +27,12 @@ Use the following to install the dependency:
 
 To deploy the project in Karaf, run the following command from its shell:
 ```
-    bundle:install -s mvn:com.savoir/msf/1.0.0-SNAPSHOT
+    bundle:install -s mvn:com.savoir.apache.karaf.essentials.msf/msf/1.0.0-SNAPSHOT
 ```
 
 Configuration of the MSF should reside in KARAF_BASE/etc. 
-Create a pair of files com.savoir.msf.hellofactory-test1.cfg and com.savoir.msf.hellofactory-test2.cfg.
+Create a pair of files com.savoir.apache.karaf.essentials.msf.hellofactory-test1.cfg and 
+com.savoir.apache.karaf.essentials.msf.hellofactory-test2.cfg.
 
 Each file should contain content as below:
 ```
